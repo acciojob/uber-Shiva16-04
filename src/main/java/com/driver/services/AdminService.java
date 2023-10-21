@@ -1,10 +1,10 @@
 package com.driver.services;
 
-import java.util.List;
-
 import com.driver.model.Admin;
 import com.driver.model.Customer;
 import com.driver.model.Driver;
+
+import java.util.List;
 
 public interface AdminService {
 
@@ -15,6 +15,6 @@ public interface AdminService {
 	public void deleteAdmin(int adminId);
 
 	public List<Driver> getListOfDrivers();
-	
+
 	public List<Customer> getListOfCustomers();
 }
