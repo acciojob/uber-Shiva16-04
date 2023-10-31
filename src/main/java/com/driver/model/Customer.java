@@ -58,5 +58,6 @@ public class Customer {
         this.mobile = mobile;
         this.password = password;
         this.tripBookingList = tripBookingList;
+
     }
 }
